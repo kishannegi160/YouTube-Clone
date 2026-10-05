@@ -1,6 +1,7 @@
 import React from "react";
 import './Video.css'
 import Playvideo from "../../component/Playvideo/Playvideo";
+import Recommended from "../../component/Recommended/Recommended";
 
 const Video = ()=>{
 
@@ -8,6 +9,7 @@ const Video = ()=>{
         <>
         <div className="play-container">
             <Playvideo/>
+            <Recommended/>
         </div>
         </>
     )

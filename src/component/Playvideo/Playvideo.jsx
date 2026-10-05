@@ -10,8 +10,8 @@ import user_profile from '../../assets/user_profile.jpg'
 const Playvideo = ()=>{
 
     return(
-        <div>
-        <div className="playvideo">
+        
+        <div className="play-video">
             <video src={video1} controls autoPlay muted></video>
             <h3>Best youtube channel to learn web development </h3>
             <div className="play-video-info">
@@ -95,7 +95,7 @@ const Playvideo = ()=>{
                 </div>
             </div>
         </div>
-        </div>
+        
     )
 }
 export default Playvideo;
