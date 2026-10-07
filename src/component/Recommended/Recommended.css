@@ -29,3 +29,9 @@
     color: #5a5a5a;
     margin: 3px 0;
 }
+
+@media (max-width:900px) {
+    .recommended{
+        flex-basis: 100%;
+    }
+}

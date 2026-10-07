@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'
-import Sidebar from "../../component/Sidebar/Sidevar";
+import Sidebar from "../../component/Sidebar/Sidebar";
 import Feed from "../../component/Feed/Feed";
 
  
